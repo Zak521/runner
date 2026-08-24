@@ -35,8 +35,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 const sceneHost = document.querySelector<HTMLDivElement>('#scene')!
 const scene = new THREE.Scene()
-scene.background = new THREE.Color(0x07131f)
-scene.fog = new THREE.Fog(0x07131f, 18, 74)
+scene.background = new THREE.Color(0xc8b8e8)
+scene.fog = new THREE.Fog(0xc8b8e8, 18, 74)
 const camera = new THREE.PerspectiveCamera(62, 1, 0.1, 120)
 camera.position.set(0, 4.4, 8.5)
 camera.lookAt(0, 1, -12)
